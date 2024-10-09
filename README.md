@@ -1,10 +1,10 @@
-# Fruit Slice
+# Fruit Slice on the edge of a glass
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Preperation](#preperation)
-   - [Protess Preperations](#prozess-preperations)
+2. [Preparation](#praperation)
+   - [Process Preparations](#prozess-praperations)
    - [CPEE](#cpee)
 3. [Process](#process)
    - [Demo Process](#demo-process)
@@ -30,9 +30,9 @@ Every beautiful cocktail needs decoration. The robot therefore places a slice of
 
 ![Decorated Cocktail](Images/decorated_cocktail.jpg)
 
-## Preperation
+## Preparation
 
-### Prozess Preperations
+### Prozess Preparations
 
 ![Setup Finger Depot and Lime Slices](Images/setup.jpg)
 
@@ -61,6 +61,7 @@ This process is for demonstration purposes and shows a sample integration of the
 - a1-Home Start: Moves from Home Position to the "Cocktail-In-Progress" glas. [Video: Step_1](Video_Process_Steps/Step_1.mp4)
 - Loop: Verifies that the index is smaller than the max number of fruits in the holder.
 - a2-Place Slice: executes the subprocess of the "fruit_slice.xml". The fruit_index is passed to the subprocess. [See Videos: Step 2-6](Video_Process_Steps)
+
   ![Subprocess](Screenshots/CPEE_fruit_slice_demo_subprocess.png)
 
 - a3-Next Fruit Slice Index Increase: Increases the fruit_index variable by 1
@@ -144,3 +145,4 @@ The corners have already been present in the lab.
 
 - In the default installation of the cobot there is the Point Fruit0 which is the Waypoint for the index 0.
 - The finger depot and the lime slice holder can be removed from the position brackets for cleaning.
+- To integrate the process into the cocktail process, include the "fruit_slice" process as a subprocess like in the demo process.
