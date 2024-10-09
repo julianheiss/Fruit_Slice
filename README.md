@@ -38,6 +38,7 @@ Every beautiful cocktail needs decoration. The robot therefore places a slice of
 
 - Turn the cobot into automatic and remote
 - Ensure that a glas is in the "Cocktail-In-progress" position
+- The lime slice holder and the finger depot must be placed in their marked position.
 - Put four lime slices in the lime slice holder with a little slot in each slice above the marker in the middle. Each lime slice should have a thickness of 0.9 cm to 1.3 cm.
 - The finger protection shall be placed in the protection depot on the middle bar so that the longer side of the protection faces inwards.
   ![Finger Protection Placement](Images/finger_depot_placement.jpg.jpg)
