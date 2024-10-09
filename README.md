@@ -3,8 +3,8 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Preparation](#praperation)
-   - [Process Preparations](#prozess-praperations)
+2. [Preparation](#preparation)
+   - [Process Preparations](#prozess-preparations)
    - [CPEE](#cpee)
 3. [Process](#process)
    - [Demo Process](#demo-process)
@@ -91,7 +91,7 @@ This is the process which would be integrated into the cocktail process as a sub
 - a3-Pickup Fruit Slice: Picks up the FruitSlice depending on the registert value. This is done by an offset. For this purpose Index 0 is safed as a Fruit0 in the default installation. [Video: Step_3](Video_Process_Steps/Step_3.mp4)
 - a4-Place Slice: The cobot places the slice on the edge of the "Cocktail-In-Progress"-glas. [Video: Step_4](Video_Process_Steps/Step_4.mp4)
 - a5-Place Protection: The cobot places the protection in the Protection Depot and pushes the protection in the starting position. [Video: Step_5](Video_Process_Steps/Step_5.mp4)
-- a6-Returns to working position: The cobot returns to the "Cocktail-In-Progress"- glas. [Video: Step_6](Video_Process_Steps/Step_6.mp4)
+- a6-Returns to working position: The cobot returns to the "Cocktail-In-Progress"-glas. [Video: Step_6](Video_Process_Steps/Step_6.mp4)
 
 #### Endpoints
 
@@ -117,7 +117,7 @@ This is the place where the finger protection will be placed.
 
 ![Finger Protection](Images/3D_finger_protection.png)
 
-This ensures that the cobot doesn't get sticky fingers.
+This ensures that the cobot doesn't get sticky fingers. The longer side is where the robot touches the lime slice. The other side is shorter because of a bulge on the robot's finger.
 
 ### Lime Slice Holder_V2
 
